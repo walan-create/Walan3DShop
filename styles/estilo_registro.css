@@ -1,0 +1,172 @@
+#main-register {
+    height: 530px;
+}
+#main-register form {
+    position: absolute;
+    height: 480px;
+    width: 500px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #1190cb;
+    border: 2px solid #5da6df;
+    box-shadow: 0px 0px 10px #4e4c4c ;
+    border-radius: 13px;
+}
+#myform {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 10px;
+        padding: 5% 10%;
+        background-color: #5da6df;
+        border: 2px solid #1190cb;
+        border-radius: 13px;
+        box-shadow: 0px 0px 5px #404040 ;
+        text-align: center;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+}
+#main-register h3 {
+    flex-basis: 8%;
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+#reg {
+    display: flex;
+}
+#reg .controls1{
+    width: 100%;
+}
+#nom{
+    margin-right: 10px ;
+}
+.controls1 {
+    font-family: 'MiFuente';
+    padding: 13px;
+    border-radius: 6px;
+    display: block;
+    border: 1px solid gray;
+    color: #332f2c;
+    transition: all 0.2s ease-in-out;
+}
+.controls1:focus{
+    outline: 2px solid #676463;
+    box-shadow: 5px 2px 8px #8c8c8c ;
+    color: #575554; 
+}
+.controls1:hover{
+    transform: scale(1.04);
+}
+.buttons1{
+    border: 2px solid #bcbcbc;
+    font-family: 'MiFuente';
+    text-decoration: none;
+    font-size: 17px ;
+    background: white;
+    color: #575554;
+    border-radius: 5px;
+    box-shadow: 0px 7px 9px #8c8c8c;
+    padding: 6px 20px;
+    transition: all 0.2s ease-in-out;
+}
+.buttons1:hover{
+    color: #1190cb;
+    transform: scale(1.04); 
+    box-shadow: 0px 10px 9px #8c8c8c;
+    border: 2px solid #5da6df;
+}
+#register label{
+    display: inline-block;
+    font-size: 15px;
+    color: #575554;
+    
+}
+.registerF {
+    width: 20px;
+    margin-top: 14px;
+    right: 92px;
+    position: absolute;
+    filter: invert(36%) sepia(94%) saturate(7451%) hue-rotate(355deg) brightness(99%) contrast(121%);
+}
+.registerT {
+    width: 25px;
+    margin-top: 12px;
+    right: 90px;
+    position: absolute;
+    filter: invert(69%) sepia(18%) saturate(2621%) hue-rotate(68deg) brightness(93%) contrast(85%);
+}
+.reg1 {
+    display: flex;
+}
+.reg1 .controls1{
+    width: 100%;
+}
+#label-correo {
+    text-align: left;
+    position: absolute;
+    font-size: 1px;
+    top: 148px;
+    p {
+        font-size: 12px;
+        color: red;
+    }
+}
+#label-password {
+    text-align: left;
+    position: absolute;
+    font-size: 1px;
+    top: 212px;
+    p {
+        font-size: 12px;
+        color: red;
+    }
+}
+#label-rep_password {
+    text-align: left;
+    position: absolute;
+    font-size: 1px;
+    top: 276px;
+    p {
+        font-size: 12px;
+        color: red;
+    }
+}
+
+/*Checks*/
+#registerFcorreo {
+    display: none;
+}
+#registerTcorreo {
+    display: none;
+}
+#registerFpass{
+    display: none;
+}
+#registerTpass{
+    display: none;
+}
+#registerFrep{
+    display: none;
+}
+#registerTrep{
+    display: none;
+}
+#label-correo{
+    display: none;
+}
+#label-password{
+    display: none;
+}
+#label-rep_password{
+    display: none;
+}

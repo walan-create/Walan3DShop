@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="../styles/estilos.css">
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="../images/W3D.png" width="100" height="100" id="logo"/></a>
+        <a href="../index.html"><img src="../svg/carrito.svg" alt="" id="carrito"></a>
+        <a href="inicio_sesion.html"><img src="../svg/user.svg" alt="" id="usuario"></a>
+        <a id="abrir" class="abrir-menu"><img src="../svg/panel.svg" alt=""></a>
+
+        <nav class="nav" id="nav">
+
+            <section id="desplegable-info">
+                <a id="cerrar" class="cerrar-menu"><img src="../svg/panel.svg" alt=""></a>
+                <p>Explorar <b>Walan3Dshop</b></p>
+                <a href="../index.html"><img src="../svg/carrito.svg" alt="" id="carrito2"></a>
+                <a href="inicio_sesion.html"><img src="../svg/user.svg" alt="" id="usuario2"></a>
+            </section>
+
+            <ul class="ulcontainer">
+                <li><a href="../index.html">Inicio</a></li>
+                <li id="submenu"><a href="">Tienda</a>
+                    <ul id="ul2">
+                        <li><a href="tienda.html"></a>Tienda Impresoras</li>
+                        <li><a href="tienda.html"></a>Tienda Souvenirs</li>
+                        <li><a href="tienda.html"></a>Tienda Materiales</li>
+                    </ul>
+                </li>
+                <li><a href="">Contacto</a></li>
+                <li><a href="" id="test">Acerca de nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="../scripts/main.js"></script>
+
+    <main id="main-register">
+        <form id="registerForm" novalidate>
+            <div id="myform">
+                <h3>Crea tu cuenta</h3>
+                <div id="reg">
+                    <input class="controls1" id="nom" type="text" name="Nombre" placeholder="Nombre (Opcional)" required>
+                    <input class="controls1" id="num" type="text" name="Apellido" placeholder="Apellido (Opcional)" required>
+                </div>
+                <label id="label-correo" class="error-message"><p>*Correo Inválido</p></label>
+                <div class="reg1">
+                    <input class="controls1" id="email" type="email" name="usuario" placeholder="Correo electrónico o número de teléfono" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{2,5}" required>
+                    <img class="registerF" id="registerFcorreo" src="../svg/registerF.svg" alt="">
+                    <img class="registerT" id="registerTcorreo" src="../svg/registerT.svg" alt="">
+                </div>
+                <label id="label-password" class="error-message"><p>*(8-16) Letras - 1 Mayúscula - 1 Minúscula - 1 Carácter (#$@!%&?)</p></label>
+                <div class="reg1">
+                    <input class="controls1" id="password" type="password" name="contrasena" placeholder="Contraseña" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\#$@!%&?])(?!\s)[a-zA-Z\d\#$@!%&?]{8,16}$" required>
+                    <img class="registerF" id="registerFpass" src="../svg/registerF.svg" alt="">
+                    <img class="registerT" id="registerTpass" src="../svg/registerT.svg" alt="">
+                </div>
+                <label id="label-rep_password" class="error-message"><p>*Las contraseñas no coinciden</p></label>
+                <div class="reg1">
+                    <input class="controls1" id="rep_password" type="password" name="rep_contraseña" placeholder="Repite la Contraseña" required>
+                    <img class="registerF" id="registerFrep" src="../svg/registerF.svg" alt="">
+                    <img class="registerT" id="registerTrep" src="../svg/registerT.svg" alt="">
+                </div>
+                <label><input class="checkbox" type="checkbox" value="opcion1" required> Acepto la política de privacidad</label>
+                <input class="buttons1" id="buttonIngresar" type="submit" name="BotonIngresar" value="Ingresar">
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <section id="redes">
+            <div id="izq">
+                <a href="https://www.youtube.com/"><img src="svg/youtube-svgrepo-com.svg" alt=""></a>
+                <a href="https://twitter.com/?lang=es"><img src="svg/twitter-3-svgrepo-com.svg" alt=""></a>
+                <a href="https://www.facebook.com/?locale=es_ES"><img src="svg/facebook-svgrepo-com.svg" alt=""></a>
+                <a href="https://www.instagram.com/walan3d/"><img src="svg/instagram-fill-svgrepo-com.svg" alt=""></a>
+            </div>
+            <div id="der">
+                <a href="#main-register">
+                    <div>
+                        <img src="../svg/flecha.svg" alt="">         
+                        <p>Volver Arriba</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section id="secciones-footer">
+            <section>
+                <h3>Servicios en línea</h3>
+                <div class="linea-pequeña"></div>
+                <ul>
+                    <li><a>Asesoramiento técnico</a></li>
+                    <li><a>Declaración de confianza</a></li>
+                    <li><a>Acuerdo de servicios</a></li>
+                    <li><a>Personalización de productos</a></li>
+                </ul>
+            </section>
+            <section>
+                <h3>Tiendas</h3>
+                <ul>
+                    <li><a>Souvenirs</a></li>
+                    <li><a>Filamentos</a></li>
+                    <li><a>Impresoras</a></li>
+                    <li><a>Componentes</a></li>
+                </ul>
+            </section>
+            <section>
+                <h3>Contáctanos</h3>
+                <ul>
+                    <li>walan3d@gmail.com</li>
+                    <li>+34 643 81 54 30</li>
+                    <li>+34 605 87 49 77</li>
+                    <li>C. Don José de Orbaneja, 3</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Ayuda</h3>
+                <ul>
+                    <li><a>Terminos y condiciones</a></li>
+                    <li><a>Politica de privacidad</a></li>
+                    <li><a>Metodos de pago</a></li>
+                    <li><a>Reclamos y devoluciones</a></li>
+                </ul>
+            </section>
+        </section>
+        <p id="copy">©2024 por Walan3Dshop.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.6/dist/sweetalert2.all.min.js"></script>
+    <script src="../scripts/validacion.js"></script>
+</body>
+</html>

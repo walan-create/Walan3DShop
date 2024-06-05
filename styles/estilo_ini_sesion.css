@@ -1,0 +1,96 @@
+#main-inicio {
+    height: 500px;
+}
+
+#main-inicio form {
+    position: absolute;
+    height: 400px;
+    width: 500px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #1190cb;
+    border: 2px solid #5da6df;
+    box-shadow: 0px 0px 10px #4e4c4c ;
+    border-radius: 13px;
+}
+#sesion {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 10px;
+        padding: 5% 15%;
+        background-color: #5da6df;
+        border: 2px solid #1190cb;
+        border-radius: 13px;
+        box-shadow: 0px 0px 5px #404040 ;
+        text-align: center;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+}
+
+
+#main-inicio h3 {
+    flex-basis: 8%;
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 2px solid white;
+}
+.controls {
+    font-family: 'MiFuente';
+    padding: 13px;
+    border-radius: 6px;
+    display: block;
+    border: 1px solid gray;
+    color: #332f2c;
+    transition: all 0.2s ease-in-out;
+}
+.controls:focus{
+    outline: 2px solid #676463;
+    box-shadow: 5px 2px 8px #8c8c8c ;
+    color: #575554; 
+}
+.controls:hover{
+    transform: scale(1.04);
+}
+.buttons{
+    border: 2px solid #bcbcbc;
+    font-family: 'MiFuente';
+    text-decoration: none;
+    font-size: 17px ;
+    background: white;
+    color: #575554;
+    border-radius: 5px;
+    box-shadow: 0px 7px 9px #8c8c8c;
+    padding: 6px 20px;
+    transition: all 0.2s ease-in-out;
+}
+.buttons:hover{
+    color: #1190cb;
+    transform: scale(1.04); 
+    box-shadow: 0px 10px 9px #8c8c8c;
+    border: 2px solid #5da6df;
+}
+#main-inicio form div p a {
+    display: block;
+    color: white;
+    font-size: 14px;
+    float: left;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+#main-inicio form div p a:hover{
+    transform: scale(1.04); 
+}
+#ir_registro{
+    margin-left: 40px;
+    color: white;
+}
